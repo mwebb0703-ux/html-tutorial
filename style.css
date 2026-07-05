@@ -80,8 +80,9 @@ about
 
 #about {
   padding: 48px 0;
-  background-color: #;
+  background-color: #f8ffdc;
   justify-content: center;
+  margin: 0 auto;
 }
 
 h2 {
@@ -95,9 +96,14 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-#about .about__img--wrapper,.section__description--wrapper {
+
+.about__img--wrapper {
   width: 60%;
-  padding: 0 24px;
+  padding: 0 30px;
+}
+.section__description --wrapper {
+  width: 60%;
+  padding: 0 30px;
 }
 
 .img {
@@ -108,4 +114,5 @@ h2 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
+  padding: 0 0 0 30px;
 }
