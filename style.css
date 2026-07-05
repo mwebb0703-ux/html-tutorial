@@ -161,3 +161,34 @@ input,textarea {
 button {
   margin-top: 12px;
 }
+
+/*
+
+footer
+
+*/
+
+footer {
+  background-color: #aaf5ff;
+  padding: 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.footer__link{
+  padding: 0px 20px;
+  font-size: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 24px;
+}
