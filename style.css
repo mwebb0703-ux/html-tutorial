@@ -17,7 +17,7 @@ nav {
 }
 
 header {
-  height:  calc(100vh-70px);
+  height: calc(100vh-70px);
   padding: 24px;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ header {
   background-color: #eadcff;
 }
 
-h1{
+h1 {
   font-size: 72px;
   padding: 10px 0;
 }
@@ -45,6 +45,7 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
+
 a {
   color: #000;
   font-size: 24px;
@@ -62,4 +63,33 @@ ul {
 li {
   list-style: none;
   margin-right: 0 10px;
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+
+about
+
+*/
+
+#about {
+  padding: 48px 0;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
