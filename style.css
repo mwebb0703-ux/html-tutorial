@@ -116,3 +116,16 @@ h2 {
   margin-bottom: 24px;
   padding: 0 0 0 30px;
 }
+
+/*
+
+discord
+
+*/
+
+#discord {
+  padding: 48px 0;
+  background-color: #cefeff;
+  justify-content: center;
+  margin: 0 auto;
+}
