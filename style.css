@@ -76,11 +76,11 @@ li {
 
 about
 
-/*
+*/
 
 #about {
   padding: 48px 0;
-  background-color: #2cdc4c;
+  background-color: #;
   justify-content: center;
 }
 
@@ -95,8 +95,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
-.about__img--wrapper, .section__description--wrapper {
+#about .about__img--wrapper,.section__description--wrapper {
   width: 60%;
   padding: 0 24px;
 }
@@ -104,7 +103,6 @@ h2 {
 .img {
   width: 100%;
 }
-
 
 .section__description--para {
   font-size: 20px;
