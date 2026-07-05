@@ -129,3 +129,31 @@ discord
   justify-content: center;
   margin: 0 auto;
 }
+
+/*
+
+contact
+
+*/
+
+#contact {
+  padding: 48px 0;
+  background-color: #dce9ff;
+  justify-content: center;
+  margin: 0 auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input,textarea {
+  padding: 6px 12px;
+  margin-bottom: 24pix;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
